@@ -34,3 +34,8 @@ const isValidPassword = (pass) => {
   }
 };
 console.log(isValidPassword());
+console.log(isValidPassword({}));
+console.log(isValidPassword("anwar"));
+console.log(isValidPassword("anwar1"));
+console.log(isValidPassword("Aar1"));
+console.log(isValidPassword("Anwarsanusi1"));

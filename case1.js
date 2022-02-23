@@ -8,11 +8,11 @@ function changeWord1(selectedText, changeText, text) {
   return newText;
 }
 
-// change sapi to kambing
+// change text sapi to kambing
 console.log(
   changeWord1(
     "sapi",
     "kambing",
-    "saya suka memakan olahan daging Sapi seperti gulai sapi dan soto sapi"
+    "saya suka memakan olahan daging Sapi seperti gulai sapi"
   )
 );

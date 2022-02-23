@@ -22,3 +22,8 @@ const checkEmail = (email) => {
   }
 };
 console.log(checkEmail({}));
+console.log(checkEmail());
+console.log(checkEmail(567567));
+console.log(checkEmail("sanusigmail"));
+console.log(checkEmail("sanusi@gmail"));
+console.log(checkEmail("sanusi@gmail.com"));

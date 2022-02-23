@@ -2,10 +2,8 @@ const checkTypeNumber = (givenNumber) => {
   const tipeData = typeof givenNumber; //save type data of params
   // check if params string and number
   if (
-    tipeData === "string" ||
-    (tipeData === typeof givenNumber &&
-      tipeData !== typeof [] &&
-      givenNumber !== undefined)
+    tipeData === typeof "string" ||
+    (tipeData !== typeof [] && givenNumber !== undefined)
   ) {
     // check is even number
     if (Number(givenNumber) % 2 == 0) {
@@ -23,3 +21,6 @@ const checkTypeNumber = (givenNumber) => {
   }
 };
 console.log(checkTypeNumber());
+console.log(checkTypeNumber({}));
+console.log(checkTypeNumber(22));
+console.log(checkTypeNumber("11"));
